@@ -1,0 +1,25 @@
+{
+  "name": "homework4",
+  "version": "1.0.0",
+  "description": "web-homework4-mongoDb-session",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mongoDb-session-expressjs"
+  ],
+  "author": "Sule Tascı-Ali Haydar Sevgili",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
